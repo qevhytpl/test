@@ -5,7 +5,7 @@ import sys
 sys.path.append(r'')
 from basic.function import q_fnc_auc, q_fnc_prc, q_fnc_report, q_fnc_dataset, q_fnc_cv_acc, q_fnc_model
 
-X_train, X_test, y_train, y_test = q_fnc_dataset(4)  #007
+X_train, X_test, y_train, y_test = q_fnc_dataset(4)  #HHH
 
 model = q_fnc_model(0)[3]
 
